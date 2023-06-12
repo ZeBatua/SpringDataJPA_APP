@@ -10,17 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc7f7566-186a-4ac9-980d-60611f40fa71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crud/app/repositories/PeopleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crud/app/services/PeopleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22b0eaab-21bf-4e26-b8f8-feaddbbaa181.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22b0eaab-21bf-4e26-b8f8-feaddbbaa181.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f57da635-8a5c-4574-adb3-3c18956d5b54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f57da635-8a5c-4574-adb3-3c18956d5b54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/app/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/app/models/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/gosha/IdeaProjects/SpringDataJPA_APP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "ecb48e0a2c7b0612ee86e513ea6ba3a4",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gosha/IdeaProjects/SpringDataJPA_APP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ecb48e0a2c7b0612ee86e513ea6ba3a4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -172,12 +166,32 @@
       <option name="presentableId" value="Default" />
       <updated>1686409276162</updated>
       <workItem from="1686409277973" duration="1466000" />
-      <workItem from="1686494319128" duration="9360000" />
+      <workItem from="1686494319128" duration="10252000" />
+      <workItem from="1686570535070" duration="352000" />
     </task>
+    <task id="LOCAL-00001" summary="CRUD application + Spring DATA JPA">
+      <created>1686508238581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508238581</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CRUD application + Spring DATA JPA">
+      <created>1686508379492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508379492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD application + Spring DATA JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD application + Spring DATA JPA" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

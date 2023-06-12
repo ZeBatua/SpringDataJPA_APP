@@ -15,3 +15,6 @@ insert into Person(name, age, email) values ('test7', 27, 'test7@mail.com');
 insert into Person(name, age, email) values ('test8', 28, 'test8@mail.com');
 insert into Person(name, age, email) values ('test9', 29, 'test9@mail.com');
 insert into Person(name, age, email) values ('test10', 30, 'test10@mail.com');
+
+ALTER TABLE Person ADD COLUMN date_of_birth DATE;
+ALTER TABLE Person ADD COLUMN created_at TIMESTAMP;
