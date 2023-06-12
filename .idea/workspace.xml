@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc7f7566-186a-4ac9-980d-60611f40fa71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22b0eaab-21bf-4e26-b8f8-feaddbbaa181.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22b0eaab-21bf-4e26-b8f8-feaddbbaa181.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f57da635-8a5c-4574-adb3-3c18956d5b54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f57da635-8a5c-4574-adb3-3c18956d5b54.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/initDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crud/app/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/app/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/app/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/app/services/PeopleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gosha\IdeaProjects\SpringDataJPA_APP\src\main\sql" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -167,7 +173,7 @@
       <updated>1686409276162</updated>
       <workItem from="1686409277973" duration="1466000" />
       <workItem from="1686494319128" duration="10252000" />
-      <workItem from="1686570535070" duration="352000" />
+      <workItem from="1686570535070" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD application + Spring DATA JPA">
       <created>1686508238581</created>
@@ -183,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686508379492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added date_of_birth &amp; created_at in DB &amp; models">
+      <created>1686570936192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686570936192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +204,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CRUD application + Spring DATA JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD application + Spring DATA JPA" />
+    <MESSAGE value="added date_of_birth &amp; created_at in DB &amp; models" />
+    <option name="LAST_COMMIT_MESSAGE" value="added date_of_birth &amp; created_at in DB &amp; models" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
