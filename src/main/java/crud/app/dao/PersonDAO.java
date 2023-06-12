@@ -5,13 +5,16 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Service
 @Transactional
 @EnableTransactionManagement
 
@@ -31,7 +34,7 @@ public class PersonDAO {
         session.createNativeQuery("TRUNCATE TABLE Person");
     }
 
-    @Transactional
+    @Transactional(propagation= Propagation.REQUIRED)
     public void testMultipleUpdate() {
         Session session = sessionFactory.getCurrentSession();
         List<Person> people = create1000People();
@@ -69,7 +72,8 @@ public class PersonDAO {
 //        System.out.println("Time: " + (after - before));
     }
 
-    private List<Person> create1000People() {
+    @Transactional
+    public List<Person> create1000People() {
         List<Person> people = new ArrayList<>();
         int amount = 10; // 1000 default
         for (int i = (batchUseCounter == 0 ? 0 : batchUseCounter * amount);  i < amount * (batchUseCounter + 1); i++) {
